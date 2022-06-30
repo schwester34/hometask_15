@@ -10,7 +10,7 @@ import static io.restassured.RestAssured.given;
 public class ApiTest {
     @Test
     void apiTest() {
-        ApiConfig config = ConfigFactory.create(ApiConfig.class);
+        ApiConfig config = ConfigFactory.create(ApiConfig.class, System.getProperties());
         given()
                 .contentType(ContentType.JSON)
                 .get(config.baseUrl())
