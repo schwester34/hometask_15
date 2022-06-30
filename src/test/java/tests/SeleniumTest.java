@@ -7,7 +7,7 @@ import org.openqa.selenium.WebDriver;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-public class SeleniumTest {
+public class SeleniumTest extends TestBase {
     private WebDriver driver = new WebDriverProvider().get();
 
     @Test
