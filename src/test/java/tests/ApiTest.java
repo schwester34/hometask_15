@@ -17,4 +17,5 @@ public class ApiTest {
                 .then().log().all()
                 .statusCode(200);
     }
+    System.out.println(token);
 }
