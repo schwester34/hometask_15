@@ -14,5 +14,5 @@ public interface ApiConfig extends Config {
     String baseUrl();
 
     @Key("token")
-    String token() 
+    String token();
 }
